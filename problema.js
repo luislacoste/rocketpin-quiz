@@ -41,8 +41,6 @@ function readDatabase(myDatabase) {
             let client = fields[7];
 
             var malgeo = parseInt(fields[8][1]);
-
-            // let malgeo = parseInt(fields[8][1]);
     
             if (malgeo == 1 && !missionsAlreadyPrinted.includes(id)) {
                 console.log(`Mision que hizo ${shopperEmail} no esta en su lugar, por favor revisar en https://rocketpin.com/admin/missions#/show_mission/${id}`);
